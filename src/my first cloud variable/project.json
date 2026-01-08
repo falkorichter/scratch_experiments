@@ -1,1 +1,874 @@
-{"targets":[{"isStage":true,"name":"Stage","variables":{"Vn5qP)##6)S7@qNQ.XX*":["☁ click_counter",1859,true],"4B}A2B[8*Wc7;3WWb4O^":["sprunghöhe","0"],"|;!Wvj86/UV/)M:(xOSO":["Time Pressed","0"],"ePv~;`g0?CI/06+yH[rZ":["vorwärts",0],"h!T}1a{o247*GJ@sZVI_":["bad_behavior",0]},"lists":{},"broadcasts":{"wX$(4#gjQ0{p8Q2FiYq|":"behavior changed"},"blocks":{},"comments":{},"currentCostume":0,"costumes":[{"name":"Hintergrund1","dataFormat":"svg","assetId":"cd21514d0531fdffb22204e0ec5ed84a","md5ext":"cd21514d0531fdffb22204e0ec5ed84a.svg","rotationCenterX":240,"rotationCenterY":180}],"sounds":[{"name":"Plopp","assetId":"83a9787d4cb6f3b7632b4ddfebf74367","dataFormat":"wav","format":"","rate":44100,"sampleCount":1032,"md5ext":"83a9787d4cb6f3b7632b4ddfebf74367.wav"}],"volume":100,"layerOrder":0,"tempo":60,"videoTransparency":50,"videoState":"on","textToSpeechLanguage":null},{"isStage":false,"name":"reak","variables":{},"lists":{},"broadcasts":{},"blocks":{"H$mirZ1};M}9P2`(^qzW":{"opcode":"event_whenflagclicked","next":"*ii!ipQaF`@S8V3l=JCK","parent":null,"inputs":{},"fields":{},"shadow":false,"topLevel":true,"x":-266,"y":110},"*ii!ipQaF`@S8V3l=JCK":{"opcode":"control_forever","next":null,"parent":"H$mirZ1};M}9P2`(^qzW","inputs":{"SUBSTACK":[2,"FEr7Zcg{qa`{fvV$oWuV"]},"fields":{},"shadow":false,"topLevel":false},"8oMv:ZuGaHx):`9}w5:`":{"opcode":"control_if","next":null,"parent":"wC+((-FAAP=_=%KD4$n-","inputs":{"CONDITION":[2,"tLUBB#CHS6Lu*PP~NuV/"],"SUBSTACK":[2,"g)m4=ggD$#+)fl~-VRaG"]},"fields":{},"shadow":false,"topLevel":false},"(){2.2Bw7uw2?%?_p@G^":{"opcode":"sensing_mousedown","next":null,"parent":"tLUBB#CHS6Lu*PP~NuV/","inputs":{},"fields":{},"shadow":false,"topLevel":false},"sE7_zO%R{9(1SLS(qD5r":{"opcode":"data_changevariableby","next":null,"parent":"@Fh-`GKA%FF3y`#8_]Em","inputs":{"VALUE":[1,[4,"1"]]},"fields":{"VARIABLE":["☁ click_counter","Vn5qP)##6)S7@qNQ.XX*"]},"shadow":false,"topLevel":false},"@Fh-`GKA%FF3y`#8_]Em":{"opcode":"motion_goto","next":"sE7_zO%R{9(1SLS(qD5r","parent":"sQuH6Up36|IZCSk?O~U2","inputs":{"TO":[1,"[vGrl%1GB5s*aK|9Wd}?"]},"fields":{},"shadow":false,"topLevel":false},"[vGrl%1GB5s*aK|9Wd}?":{"opcode":"motion_goto_menu","next":null,"parent":"@Fh-`GKA%FF3y`#8_]Em","inputs":{},"fields":{"TO":["_random_",null]},"shadow":true,"topLevel":false},"sQuH6Up36|IZCSk?O~U2":{"opcode":"control_repeat_until","next":"@Fh-`GKA%FF3y`#8_]Em","parent":"FEr7Zcg{qa`{fvV$oWuV","inputs":{"CONDITION":[2,"dWlu=#42s+XB$E%FVc/B"],"SUBSTACK":[2,"O(eE8iUumoD6$kCW3mum"]},"fields":{},"shadow":false,"topLevel":false},"dWlu=#42s+XB$E%FVc/B":{"opcode":"operator_not","next":null,"parent":"sQuH6Up36|IZCSk?O~U2","inputs":{"OPERAND":[2,"WSPOcUFpylr3jA0I,:Km"]},"fields":{},"shadow":false,"topLevel":false},"O(eE8iUumoD6$kCW3mum":{"opcode":"control_wait","next":null,"parent":"sQuH6Up36|IZCSk?O~U2","inputs":{"DURATION":[1,[5,"0.01"]]},"fields":{},"shadow":false,"topLevel":false},"WSPOcUFpylr3jA0I,:Km":{"opcode":"sensing_mousedown","next":null,"parent":"dWlu=#42s+XB$E%FVc/B","inputs":{},"fields":{},"shadow":false,"topLevel":false},"FEr7Zcg{qa`{fvV$oWuV":{"opcode":"control_if","next":null,"parent":"*ii!ipQaF`@S8V3l=JCK","inputs":{"CONDITION":[2,"7qUUi^G$Vn3*gQ+LKr|:"],"SUBSTACK":[2,"sQuH6Up36|IZCSk?O~U2"]},"fields":{},"shadow":false,"topLevel":false},"Y)YrPnggNQD+Q@^!PocP":{"opcode":"sensing_mousedown","next":null,"parent":"7qUUi^G$Vn3*gQ+LKr|:","inputs":{},"fields":{},"shadow":false,"topLevel":false},"g)m4=ggD$#+)fl~-VRaG":{"opcode":"motion_goto","next":"|QE%S8WJX.,C=zocLV=5","parent":"8oMv:ZuGaHx):`9}w5:`","inputs":{"TO":[1,"JzUx/)4%$wmu@-V96O]("]},"fields":{},"shadow":false,"topLevel":false},"JzUx/)4%$wmu@-V96O](":{"opcode":"motion_goto_menu","next":null,"parent":"g)m4=ggD$#+)fl~-VRaG","inputs":{},"fields":{"TO":["_random_",null]},"shadow":true,"topLevel":false},"|QE%S8WJX.,C=zocLV=5":{"opcode":"data_changevariableby","next":null,"parent":"g)m4=ggD$#+)fl~-VRaG","inputs":{"VALUE":[1,[4,"1"]]},"fields":{"VARIABLE":["☁ click_counter","Vn5qP)##6)S7@qNQ.XX*"]},"shadow":false,"topLevel":false},"ZCr!;SQmbFzs{yCJ*%=U":{"opcode":"event_whenflagclicked","next":"wC+((-FAAP=_=%KD4$n-","parent":null,"inputs":{},"fields":{},"shadow":false,"topLevel":true,"x":526,"y":105},"wC+((-FAAP=_=%KD4$n-":{"opcode":"control_forever","next":null,"parent":"ZCr!;SQmbFzs{yCJ*%=U","inputs":{"SUBSTACK":[2,"8oMv:ZuGaHx):`9}w5:`"]},"fields":{},"shadow":false,"topLevel":false},"tLUBB#CHS6Lu*PP~NuV/":{"opcode":"operator_and","next":null,"parent":"8oMv:ZuGaHx):`9}w5:`","inputs":{"OPERAND1":[2,"(){2.2Bw7uw2?%?_p@G^"],"OPERAND2":[2,":_CFF0Dah4.(:QpUbzXT"]},"fields":{},"shadow":false,"topLevel":false},":_CFF0Dah4.(:QpUbzXT":{"opcode":"operator_equals","next":null,"parent":"tLUBB#CHS6Lu*PP~NuV/","inputs":{"OPERAND1":[3,[12,"bad_behavior","h!T}1a{o247*GJ@sZVI_"],[10,"01"]],"OPERAND2":[1,[10,"0"]]},"fields":{},"shadow":false,"topLevel":false},"7qUUi^G$Vn3*gQ+LKr|:":{"opcode":"operator_and","next":null,"parent":"FEr7Zcg{qa`{fvV$oWuV","inputs":{"OPERAND1":[2,"Y)YrPnggNQD+Q@^!PocP"],"OPERAND2":[2,"vKWl$7vQRx34S[+fS*c]"]},"fields":{},"shadow":false,"topLevel":false},"vKWl$7vQRx34S[+fS*c]":{"opcode":"operator_not","next":null,"parent":"7qUUi^G$Vn3*gQ+LKr|:","inputs":{"OPERAND":[2,"R:d=LWu%;V-``[JolBva"]},"fields":{},"shadow":false,"topLevel":false},"R:d=LWu%;V-``[JolBva":{"opcode":"operator_equals","next":null,"parent":"vKWl$7vQRx34S[+fS*c]","inputs":{"OPERAND1":[3,[12,"bad_behavior","h!T}1a{o247*GJ@sZVI_"],[10,"01"]],"OPERAND2":[1,[10,"0"]]},"fields":{},"shadow":false,"topLevel":false},"8`4_^osh4zACh=)OEuv@":{"opcode":"operator_mathop","next":null,"parent":null,"inputs":{"NUM":[1,[4,""]]},"fields":{"OPERATOR":["10 ^",null]},"shadow":false,"topLevel":true,"x":243,"y":785}},"comments":{"b1pP0M9ogx[#ANg,t=av":{"blockId":"gwJIRtK4%;bXL!^S-I0F","x":176,"y":1776,"width":200,"height":200,"minimized":false,"text":"das klappt"}},"currentCostume":0,"costumes":[{"name":"Kostüm1","bitmapResolution":1,"dataFormat":"svg","assetId":"bcf454acf82e4504149f7ffe07081dbc","md5ext":"bcf454acf82e4504149f7ffe07081dbc.svg","rotationCenterX":48,"rotationCenterY":50},{"name":"Kostüm2","bitmapResolution":1,"dataFormat":"svg","assetId":"0fb9be3e8397c983338cb71dc84d0b25","md5ext":"0fb9be3e8397c983338cb71dc84d0b25.svg","rotationCenterX":46,"rotationCenterY":53}],"sounds":[{"name":"Meow","assetId":"83c36d806dc92327b9e7049a565c6bff","dataFormat":"wav","format":"","rate":44100,"sampleCount":37376,"md5ext":"83c36d806dc92327b9e7049a565c6bff.wav"}],"volume":100,"layerOrder":1,"visible":true,"x":-68,"y":0,"size":100,"direction":90,"draggable":false,"rotationStyle":"all around"},{"isStage":false,"name":"Block-B","variables":{},"lists":{},"broadcasts":{},"blocks":{")9=$ZVJ}TFpE]j@Fx_k%":{"opcode":"event_whenthisspriteclicked","next":"br]Zt-j}W?z#r:tFs?|R","parent":null,"inputs":{},"fields":{},"shadow":false,"topLevel":true,"x":-230,"y":67},"br]Zt-j}W?z#r:tFs?|R":{"opcode":"data_changevariableby","next":"YIbnzwQ8`Pd-,;wnUt5J","parent":")9=$ZVJ}TFpE]j@Fx_k%","inputs":{"VALUE":[1,[4,"1"]]},"fields":{"VARIABLE":["bad_behavior","h!T}1a{o247*GJ@sZVI_"]},"shadow":false,"topLevel":false},"YIbnzwQ8`Pd-,;wnUt5J":{"opcode":"data_setvariableto","next":"Obp%6vK|Cuwax.`mB@0I","parent":"br]Zt-j}W?z#r:tFs?|R","inputs":{"VALUE":[3,"j.HQp0bQpt8:,n8QOQdU",[10,"0"]]},"fields":{"VARIABLE":["bad_behavior","h!T}1a{o247*GJ@sZVI_"]},"shadow":false,"topLevel":false},"j.HQp0bQpt8:,n8QOQdU":{"opcode":"operator_mod","next":null,"parent":"YIbnzwQ8`Pd-,;wnUt5J","inputs":{"NUM1":[3,[12,"bad_behavior","h!T}1a{o247*GJ@sZVI_"],[4,""]],"NUM2":[1,[4,"2"]]},"fields":{},"shadow":false,"topLevel":false},"KzGbLS@2jdl|bfHYdbhU":{"opcode":"event_whenflagclicked","next":"CQC2e$pb)TwrwNhirion","parent":null,"inputs":{},"fields":{},"shadow":false,"topLevel":true,"x":297,"y":80},"CQC2e$pb)TwrwNhirion":{"opcode":"data_setvariableto","next":null,"parent":"KzGbLS@2jdl|bfHYdbhU","inputs":{"VALUE":[1,[10,"0"]]},"fields":{"VARIABLE":["bad_behavior","h!T}1a{o247*GJ@sZVI_"]},"shadow":false,"topLevel":false},"fP=te94*F^zXqRAwe2a?":{"opcode":"control_if_else","next":null,"parent":"Vly5)HZF-ff21`4iZ`pY","inputs":{"CONDITION":[2,"0iMf8}(xGvaM2DxU1u#x"],"SUBSTACK":[2,"^Nd])I)p/[F/IvFk|LaO"],"SUBSTACK2":[2,"|JRe$PP;Ywl}YEr=VjB."]},"fields":{},"shadow":false,"topLevel":false},"0iMf8}(xGvaM2DxU1u#x":{"opcode":"operator_equals","next":null,"parent":"fP=te94*F^zXqRAwe2a?","inputs":{"OPERAND1":[3,[12,"bad_behavior","h!T}1a{o247*GJ@sZVI_"],[10,""]],"OPERAND2":[1,[10,"0"]]},"fields":{},"shadow":false,"topLevel":false},"^Nd])I)p/[F/IvFk|LaO":{"opcode":"looks_switchcostumeto","next":null,"parent":"fP=te94*F^zXqRAwe2a?","inputs":{"COSTUME":[1,"C3.K@;2FmUj5]9xPjkoM"]},"fields":{},"shadow":false,"topLevel":false},"C3.K@;2FmUj5]9xPjkoM":{"opcode":"looks_costume","next":null,"parent":"^Nd])I)p/[F/IvFk|LaO","inputs":{},"fields":{"COSTUME":["bad",null]},"shadow":true,"topLevel":false},"|JRe$PP;Ywl}YEr=VjB.":{"opcode":"looks_switchcostumeto","next":null,"parent":"fP=te94*F^zXqRAwe2a?","inputs":{"COSTUME":[1,"a(T]Zvd1B~DNonHzWpqy"]},"fields":{},"shadow":false,"topLevel":false},"a(T]Zvd1B~DNonHzWpqy":{"opcode":"looks_costume","next":null,"parent":"|JRe$PP;Ywl}YEr=VjB.","inputs":{},"fields":{"COSTUME":["good",null]},"shadow":true,"topLevel":false},"Obp%6vK|Cuwax.`mB@0I":{"opcode":"event_broadcast","next":null,"parent":"YIbnzwQ8`Pd-,;wnUt5J","inputs":{"BROADCAST_INPUT":[1,[11,"behavior changed","wX$(4#gjQ0{p8Q2FiYq|"]]},"fields":{},"shadow":false,"topLevel":false},"Vly5)HZF-ff21`4iZ`pY":{"opcode":"event_whenbroadcastreceived","next":"fP=te94*F^zXqRAwe2a?","parent":null,"inputs":{},"fields":{"BROADCAST_OPTION":["behavior changed","wX$(4#gjQ0{p8Q2FiYq|"]},"shadow":false,"topLevel":true,"x":-226,"y":435}},"comments":{},"currentCostume":0,"costumes":[{"name":"bad","bitmapResolution":1,"dataFormat":"svg","assetId":"feb8dddc34a41ac085b5e301f12f4a6c","md5ext":"feb8dddc34a41ac085b5e301f12f4a6c.svg","rotationCenterX":99.37878846984361,"rotationCenterY":52.27219067106009},{"name":"good","bitmapResolution":1,"dataFormat":"svg","assetId":"82e2ca0ee22b51e28b0ead90326e0f5b","md5ext":"82e2ca0ee22b51e28b0ead90326e0f5b.svg","rotationCenterX":98.76973200680283,"rotationCenterY":54.0993639795918}],"sounds":[{"name":"meow","assetId":"83c36d806dc92327b9e7049a565c6bff","dataFormat":"wav","format":"","rate":44100,"sampleCount":37376,"md5ext":"83c36d806dc92327b9e7049a565c6bff.wav"}],"volume":100,"layerOrder":2,"visible":true,"x":190,"y":-150,"size":40,"direction":90,"draggable":false,"rotationStyle":"all around"}],"monitors":[{"id":"Vn5qP)##6)S7@qNQ.XX*","mode":"default","opcode":"data_variable","params":{"VARIABLE":"☁ click_counter"},"spriteName":null,"value":1859,"width":0,"height":0,"x":5,"y":5,"visible":true,"sliderMin":0,"sliderMax":100,"isDiscrete":true},{"id":"h!T}1a{o247*GJ@sZVI_","mode":"default","opcode":"data_variable","params":{"VARIABLE":"bad_behavior"},"spriteName":null,"value":0,"width":0,"height":0,"x":5,"y":36,"visible":false,"sliderMin":0,"sliderMax":100,"isDiscrete":true}],"extensions":[],"meta":{"semver":"3.0.0","vm":"12.1.3","agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"}}
+{
+    "targets": [
+        {
+            "isStage": true,
+            "name": "Stage",
+            "variables": {
+                "Vn5qP)##6)S7@qNQ.XX*": [
+                    "\u2601 click_counter",
+                    1859,
+                    true
+                ],
+                "4B}A2B[8*Wc7;3WWb4O^": [
+                    "sprungh\u00f6he",
+                    "0"
+                ],
+                "|;!Wvj86/UV/)M:(xOSO": [
+                    "Time Pressed",
+                    "0"
+                ],
+                "ePv~;`g0?CI/06+yH[rZ": [
+                    "vorw\u00e4rts",
+                    0
+                ],
+                "h!T}1a{o247*GJ@sZVI_": [
+                    "bad_behavior",
+                    0
+                ]
+            },
+            "lists": {},
+            "broadcasts": {
+                "wX$(4#gjQ0{p8Q2FiYq|": "behavior changed"
+            },
+            "blocks": {},
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "name": "Hintergrund1",
+                    "dataFormat": "svg",
+                    "assetId": "cd21514d0531fdffb22204e0ec5ed84a",
+                    "md5ext": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+                    "rotationCenterX": 240,
+                    "rotationCenterY": 180
+                }
+            ],
+            "sounds": [
+                {
+                    "name": "Plopp",
+                    "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 1032,
+                    "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 0,
+            "tempo": 60,
+            "videoTransparency": 50,
+            "videoState": "on",
+            "textToSpeechLanguage": null
+        },
+        {
+            "isStage": false,
+            "name": "reak",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {
+                "H$mirZ1};M}9P2`(^qzW": {
+                    "opcode": "event_whenflagclicked",
+                    "next": "*ii!ipQaF`@S8V3l=JCK",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -266,
+                    "y": 110
+                },
+                "*ii!ipQaF`@S8V3l=JCK": {
+                    "opcode": "control_forever",
+                    "next": null,
+                    "parent": "H$mirZ1};M}9P2`(^qzW",
+                    "inputs": {
+                        "SUBSTACK": [
+                            2,
+                            "FEr7Zcg{qa`{fvV$oWuV"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "8oMv:ZuGaHx):`9}w5:`": {
+                    "opcode": "control_if",
+                    "next": null,
+                    "parent": "wC+((-FAAP=_=%KD4$n-",
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "tLUBB#CHS6Lu*PP~NuV/"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "g)m4=ggD$#+)fl~-VRaG"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "(){2.2Bw7uw2?%?_p@G^": {
+                    "opcode": "sensing_mousedown",
+                    "next": null,
+                    "parent": "tLUBB#CHS6Lu*PP~NuV/",
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "sE7_zO%R{9(1SLS(qD5r": {
+                    "opcode": "data_changevariableby",
+                    "next": null,
+                    "parent": "@Fh-`GKA%FF3y`#8_]Em",
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                4,
+                                "1"
+                            ]
+                        ]
+                    },
+                    "fields": {
+                        "VARIABLE": [
+                            "\u2601 click_counter",
+                            "Vn5qP)##6)S7@qNQ.XX*"
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "@Fh-`GKA%FF3y`#8_]Em": {
+                    "opcode": "motion_goto",
+                    "next": "sE7_zO%R{9(1SLS(qD5r",
+                    "parent": "sQuH6Up36|IZCSk?O~U2",
+                    "inputs": {
+                        "TO": [
+                            1,
+                            "[vGrl%1GB5s*aK|9Wd}?"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "[vGrl%1GB5s*aK|9Wd}?": {
+                    "opcode": "motion_goto_menu",
+                    "next": null,
+                    "parent": "@Fh-`GKA%FF3y`#8_]Em",
+                    "inputs": {},
+                    "fields": {
+                        "TO": [
+                            "_random_",
+                            null
+                        ]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "sQuH6Up36|IZCSk?O~U2": {
+                    "opcode": "control_repeat_until",
+                    "next": "@Fh-`GKA%FF3y`#8_]Em",
+                    "parent": "FEr7Zcg{qa`{fvV$oWuV",
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "dWlu=#42s+XB$E%FVc/B"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "O(eE8iUumoD6$kCW3mum"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "dWlu=#42s+XB$E%FVc/B": {
+                    "opcode": "operator_not",
+                    "next": null,
+                    "parent": "sQuH6Up36|IZCSk?O~U2",
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "WSPOcUFpylr3jA0I,:Km"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "O(eE8iUumoD6$kCW3mum": {
+                    "opcode": "control_wait",
+                    "next": null,
+                    "parent": "sQuH6Up36|IZCSk?O~U2",
+                    "inputs": {
+                        "DURATION": [
+                            1,
+                            [
+                                5,
+                                "0.01"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "WSPOcUFpylr3jA0I,:Km": {
+                    "opcode": "sensing_mousedown",
+                    "next": null,
+                    "parent": "dWlu=#42s+XB$E%FVc/B",
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "FEr7Zcg{qa`{fvV$oWuV": {
+                    "opcode": "control_if",
+                    "next": null,
+                    "parent": "*ii!ipQaF`@S8V3l=JCK",
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "7qUUi^G$Vn3*gQ+LKr|:"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "sQuH6Up36|IZCSk?O~U2"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "Y)YrPnggNQD+Q@^!PocP": {
+                    "opcode": "sensing_mousedown",
+                    "next": null,
+                    "parent": "7qUUi^G$Vn3*gQ+LKr|:",
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "g)m4=ggD$#+)fl~-VRaG": {
+                    "opcode": "motion_goto",
+                    "next": "|QE%S8WJX.,C=zocLV=5",
+                    "parent": "8oMv:ZuGaHx):`9}w5:`",
+                    "inputs": {
+                        "TO": [
+                            1,
+                            "JzUx/)4%$wmu@-V96O]("
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "JzUx/)4%$wmu@-V96O](": {
+                    "opcode": "motion_goto_menu",
+                    "next": null,
+                    "parent": "g)m4=ggD$#+)fl~-VRaG",
+                    "inputs": {},
+                    "fields": {
+                        "TO": [
+                            "_random_",
+                            null
+                        ]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "|QE%S8WJX.,C=zocLV=5": {
+                    "opcode": "data_changevariableby",
+                    "next": null,
+                    "parent": "g)m4=ggD$#+)fl~-VRaG",
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                4,
+                                "1"
+                            ]
+                        ]
+                    },
+                    "fields": {
+                        "VARIABLE": [
+                            "\u2601 click_counter",
+                            "Vn5qP)##6)S7@qNQ.XX*"
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "ZCr!;SQmbFzs{yCJ*%=U": {
+                    "opcode": "event_whenflagclicked",
+                    "next": "wC+((-FAAP=_=%KD4$n-",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 526,
+                    "y": 105
+                },
+                "wC+((-FAAP=_=%KD4$n-": {
+                    "opcode": "control_forever",
+                    "next": null,
+                    "parent": "ZCr!;SQmbFzs{yCJ*%=U",
+                    "inputs": {
+                        "SUBSTACK": [
+                            2,
+                            "8oMv:ZuGaHx):`9}w5:`"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "tLUBB#CHS6Lu*PP~NuV/": {
+                    "opcode": "operator_and",
+                    "next": null,
+                    "parent": "8oMv:ZuGaHx):`9}w5:`",
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "(){2.2Bw7uw2?%?_p@G^"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            ":_CFF0Dah4.(:QpUbzXT"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                ":_CFF0Dah4.(:QpUbzXT": {
+                    "opcode": "operator_equals",
+                    "next": null,
+                    "parent": "tLUBB#CHS6Lu*PP~NuV/",
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "bad_behavior",
+                                "h!T}1a{o247*GJ@sZVI_"
+                            ],
+                            [
+                                10,
+                                "01"
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "7qUUi^G$Vn3*gQ+LKr|:": {
+                    "opcode": "operator_and",
+                    "next": null,
+                    "parent": "FEr7Zcg{qa`{fvV$oWuV",
+                    "inputs": {
+                        "OPERAND1": [
+                            2,
+                            "Y)YrPnggNQD+Q@^!PocP"
+                        ],
+                        "OPERAND2": [
+                            2,
+                            "vKWl$7vQRx34S[+fS*c]"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "vKWl$7vQRx34S[+fS*c]": {
+                    "opcode": "operator_not",
+                    "next": null,
+                    "parent": "7qUUi^G$Vn3*gQ+LKr|:",
+                    "inputs": {
+                        "OPERAND": [
+                            2,
+                            "R:d=LWu%;V-``[JolBva"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "R:d=LWu%;V-``[JolBva": {
+                    "opcode": "operator_equals",
+                    "next": null,
+                    "parent": "vKWl$7vQRx34S[+fS*c]",
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "bad_behavior",
+                                "h!T}1a{o247*GJ@sZVI_"
+                            ],
+                            [
+                                10,
+                                "01"
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "8`4_^osh4zACh=)OEuv@": {
+                    "opcode": "operator_mathop",
+                    "next": null,
+                    "parent": null,
+                    "inputs": {
+                        "NUM": [
+                            1,
+                            [
+                                4,
+                                ""
+                            ]
+                        ]
+                    },
+                    "fields": {
+                        "OPERATOR": [
+                            "10 ^",
+                            null
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 243,
+                    "y": 785
+                }
+            },
+            "comments": {
+                "b1pP0M9ogx[#ANg,t=av": {
+                    "blockId": "gwJIRtK4%;bXL!^S-I0F",
+                    "x": 176,
+                    "y": 1776,
+                    "width": 200,
+                    "height": 200,
+                    "minimized": false,
+                    "text": "das klappt"
+                }
+            },
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "name": "Kost\u00fcm1",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "bcf454acf82e4504149f7ffe07081dbc",
+                    "md5ext": "bcf454acf82e4504149f7ffe07081dbc.svg",
+                    "rotationCenterX": 48,
+                    "rotationCenterY": 50
+                },
+                {
+                    "name": "Kost\u00fcm2",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "0fb9be3e8397c983338cb71dc84d0b25",
+                    "md5ext": "0fb9be3e8397c983338cb71dc84d0b25.svg",
+                    "rotationCenterX": 46,
+                    "rotationCenterY": 53
+                }
+            ],
+            "sounds": [
+                {
+                    "name": "Meow",
+                    "assetId": "83c36d806dc92327b9e7049a565c6bff",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 37376,
+                    "md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 1,
+            "visible": true,
+            "x": -68,
+            "y": 0,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around"
+        },
+        {
+            "isStage": false,
+            "name": "Block-B",
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {
+                ")9=$ZVJ}TFpE]j@Fx_k%": {
+                    "opcode": "event_whenthisspriteclicked",
+                    "next": "br]Zt-j}W?z#r:tFs?|R",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -230,
+                    "y": 67
+                },
+                "br]Zt-j}W?z#r:tFs?|R": {
+                    "opcode": "data_changevariableby",
+                    "next": "YIbnzwQ8`Pd-,;wnUt5J",
+                    "parent": ")9=$ZVJ}TFpE]j@Fx_k%",
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                4,
+                                "1"
+                            ]
+                        ]
+                    },
+                    "fields": {
+                        "VARIABLE": [
+                            "bad_behavior",
+                            "h!T}1a{o247*GJ@sZVI_"
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "YIbnzwQ8`Pd-,;wnUt5J": {
+                    "opcode": "data_setvariableto",
+                    "next": "Obp%6vK|Cuwax.`mB@0I",
+                    "parent": "br]Zt-j}W?z#r:tFs?|R",
+                    "inputs": {
+                        "VALUE": [
+                            3,
+                            "j.HQp0bQpt8:,n8QOQdU",
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "fields": {
+                        "VARIABLE": [
+                            "bad_behavior",
+                            "h!T}1a{o247*GJ@sZVI_"
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "j.HQp0bQpt8:,n8QOQdU": {
+                    "opcode": "operator_mod",
+                    "next": null,
+                    "parent": "YIbnzwQ8`Pd-,;wnUt5J",
+                    "inputs": {
+                        "NUM1": [
+                            3,
+                            [
+                                12,
+                                "bad_behavior",
+                                "h!T}1a{o247*GJ@sZVI_"
+                            ],
+                            [
+                                4,
+                                ""
+                            ]
+                        ],
+                        "NUM2": [
+                            1,
+                            [
+                                4,
+                                "2"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "KzGbLS@2jdl|bfHYdbhU": {
+                    "opcode": "event_whenflagclicked",
+                    "next": "CQC2e$pb)TwrwNhirion",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 297,
+                    "y": 80
+                },
+                "CQC2e$pb)TwrwNhirion": {
+                    "opcode": "data_setvariableto",
+                    "next": null,
+                    "parent": "KzGbLS@2jdl|bfHYdbhU",
+                    "inputs": {
+                        "VALUE": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "fields": {
+                        "VARIABLE": [
+                            "bad_behavior",
+                            "h!T}1a{o247*GJ@sZVI_"
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "fP=te94*F^zXqRAwe2a?": {
+                    "opcode": "control_if_else",
+                    "next": null,
+                    "parent": "Vly5)HZF-ff21`4iZ`pY",
+                    "inputs": {
+                        "CONDITION": [
+                            2,
+                            "0iMf8}(xGvaM2DxU1u#x"
+                        ],
+                        "SUBSTACK": [
+                            2,
+                            "^Nd])I)p/[F/IvFk|LaO"
+                        ],
+                        "SUBSTACK2": [
+                            2,
+                            "|JRe$PP;Ywl}YEr=VjB."
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "0iMf8}(xGvaM2DxU1u#x": {
+                    "opcode": "operator_equals",
+                    "next": null,
+                    "parent": "fP=te94*F^zXqRAwe2a?",
+                    "inputs": {
+                        "OPERAND1": [
+                            3,
+                            [
+                                12,
+                                "bad_behavior",
+                                "h!T}1a{o247*GJ@sZVI_"
+                            ],
+                            [
+                                10,
+                                ""
+                            ]
+                        ],
+                        "OPERAND2": [
+                            1,
+                            [
+                                10,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "^Nd])I)p/[F/IvFk|LaO": {
+                    "opcode": "looks_switchcostumeto",
+                    "next": null,
+                    "parent": "fP=te94*F^zXqRAwe2a?",
+                    "inputs": {
+                        "COSTUME": [
+                            1,
+                            "C3.K@;2FmUj5]9xPjkoM"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "C3.K@;2FmUj5]9xPjkoM": {
+                    "opcode": "looks_costume",
+                    "next": null,
+                    "parent": "^Nd])I)p/[F/IvFk|LaO",
+                    "inputs": {},
+                    "fields": {
+                        "COSTUME": [
+                            "bad",
+                            null
+                        ]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "|JRe$PP;Ywl}YEr=VjB.": {
+                    "opcode": "looks_switchcostumeto",
+                    "next": null,
+                    "parent": "fP=te94*F^zXqRAwe2a?",
+                    "inputs": {
+                        "COSTUME": [
+                            1,
+                            "a(T]Zvd1B~DNonHzWpqy"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "a(T]Zvd1B~DNonHzWpqy": {
+                    "opcode": "looks_costume",
+                    "next": null,
+                    "parent": "|JRe$PP;Ywl}YEr=VjB.",
+                    "inputs": {},
+                    "fields": {
+                        "COSTUME": [
+                            "good",
+                            null
+                        ]
+                    },
+                    "shadow": true,
+                    "topLevel": false
+                },
+                "Obp%6vK|Cuwax.`mB@0I": {
+                    "opcode": "event_broadcast",
+                    "next": null,
+                    "parent": "YIbnzwQ8`Pd-,;wnUt5J",
+                    "inputs": {
+                        "BROADCAST_INPUT": [
+                            1,
+                            [
+                                11,
+                                "behavior changed",
+                                "wX$(4#gjQ0{p8Q2FiYq|"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "Vly5)HZF-ff21`4iZ`pY": {
+                    "opcode": "event_whenbroadcastreceived",
+                    "next": "fP=te94*F^zXqRAwe2a?",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {
+                        "BROADCAST_OPTION": [
+                            "behavior changed",
+                            "wX$(4#gjQ0{p8Q2FiYq|"
+                        ]
+                    },
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -226,
+                    "y": 435
+                }
+            },
+            "comments": {},
+            "currentCostume": 0,
+            "costumes": [
+                {
+                    "name": "bad",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "feb8dddc34a41ac085b5e301f12f4a6c",
+                    "md5ext": "feb8dddc34a41ac085b5e301f12f4a6c.svg",
+                    "rotationCenterX": 99.37878846984361,
+                    "rotationCenterY": 52.27219067106009
+                },
+                {
+                    "name": "good",
+                    "bitmapResolution": 1,
+                    "dataFormat": "svg",
+                    "assetId": "82e2ca0ee22b51e28b0ead90326e0f5b",
+                    "md5ext": "82e2ca0ee22b51e28b0ead90326e0f5b.svg",
+                    "rotationCenterX": 98.76973200680283,
+                    "rotationCenterY": 54.0993639795918
+                }
+            ],
+            "sounds": [
+                {
+                    "name": "meow",
+                    "assetId": "83c36d806dc92327b9e7049a565c6bff",
+                    "dataFormat": "wav",
+                    "format": "",
+                    "rate": 44100,
+                    "sampleCount": 37376,
+                    "md5ext": "83c36d806dc92327b9e7049a565c6bff.wav"
+                }
+            ],
+            "volume": 100,
+            "layerOrder": 2,
+            "visible": true,
+            "x": 190,
+            "y": -150,
+            "size": 40,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around"
+        }
+    ],
+    "monitors": [
+        {
+            "id": "Vn5qP)##6)S7@qNQ.XX*",
+            "mode": "default",
+            "opcode": "data_variable",
+            "params": {
+                "VARIABLE": "\u2601 click_counter"
+            },
+            "spriteName": null,
+            "value": 1859,
+            "width": 0,
+            "height": 0,
+            "x": 5,
+            "y": 5,
+            "visible": true,
+            "sliderMin": 0,
+            "sliderMax": 100,
+            "isDiscrete": true
+        },
+        {
+            "id": "h!T}1a{o247*GJ@sZVI_",
+            "mode": "default",
+            "opcode": "data_variable",
+            "params": {
+                "VARIABLE": "bad_behavior"
+            },
+            "spriteName": null,
+            "value": 0,
+            "width": 0,
+            "height": 0,
+            "x": 5,
+            "y": 36,
+            "visible": false,
+            "sliderMin": 0,
+            "sliderMax": 100,
+            "isDiscrete": true
+        }
+    ],
+    "extensions": [],
+    "meta": {
+        "semver": "3.0.0",
+        "vm": "12.1.3",
+        "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+    }
+}
