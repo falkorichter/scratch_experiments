@@ -9,11 +9,11 @@ This Scratch project is a click-counter game that demonstrates the use of cloud 
 The Stage serves as the background and variable container for the project.
 
 **Variables:**
-- `☁ click_counter` (Cloud Variable): Tracks the total number of clicks (current value: 1859)
-- `sprunghöhe`: Jump height variable (value: "0")
-- `Time Pressed`: Tracks time pressed (value: "0")
-- `vorwärts`: Forward movement variable (value: 0)
-- `bad_behavior`: Behavior state toggle variable (value: 0)
+- `☁ click_counter` (Cloud Variable): Tracks the total number of clicks (cloud variable - value persists across sessions)
+- `sprunghöhe`: Jump height variable (initialized to "0")
+- `Time Pressed`: Tracks time pressed (initialized to "0")
+- `vorwärts`: Forward movement variable (initialized to 0)
+- `bad_behavior`: Behavior state toggle variable (initialized to 0)
 
 **Broadcasts:**
 - `behavior changed`: Event triggered when behavior state changes
@@ -96,7 +96,7 @@ Else:
   Switch costume to "good"
 ```
 
-**Behavior:** Changes the sprite's appearance based on the behavior state. Note: The logic appears inverted - when bad_behavior is 0 (good state), it shows "bad" costume, and vice versa. This might be intentional humor or a naming inconsistency.
+**Behavior:** Changes the sprite's appearance based on the behavior state. When bad_behavior equals 0, the sprite displays the "bad" costume; when bad_behavior equals 1, it displays the "good" costume. This creates an inverted visual indicator where the current state label represents what clicking the block will change FROM, not the current active mode.
 
 **Assets:**
 - Costume 1: "bad" (SVG format, red/negative appearance)
