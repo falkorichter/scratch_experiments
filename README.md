@@ -6,3 +6,4 @@
    * embedding: https://docs.turbowarp.org/embedding 
 * sb3 file exrtracted to [src/my first cloud variable](src/my%20first%20cloud%20variable)
 * `project.json` file pretty printed https://github.com/copilot/tasks/pull/PR_kwDOQ1-YEM68Gdoi?session_id=379c9347-2aab-40b8-b983-b61b164eafc8
+* **Code Analysis:** See [PROJECT_ANALYSIS.md](src/my%20first%20cloud%20variable/PROJECT_ANALYSIS.md) for a detailed explanation of what the Scratch code does
