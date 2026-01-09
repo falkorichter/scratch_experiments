@@ -121,7 +121,7 @@ Sonst:
 4. **Modi umschalten**: Klicken Sie auf das "Block-B"-Sprite, um zwischen den Modi umzuschalten
 
 ### Cloud-Variable-Funktion:
-Die `☁ click_counter`-Variable ist eine Cloud-Variable (angezeigt durch das ☁-Symbol), was bedeutet, dass sie über alle Instanzen des Projekts hinweg geteilt werden kann, wenn es auf Scratch.mit.edu gehostet wird. Dies ermöglicht es mehreren Benutzern, zum selben Zähler beizutragen.
+Die `☁ click_counter`-Variable ist eine Cloud-Variable (angezeigt durch das ☁-Symbol), was bedeutet, dass sie über alle Instanzen des Projekts hinweg geteilt werden kann, wenn es auf scratch.mit.edu gehostet wird. Dies ermöglicht es mehreren Benutzern, zum selben Zähler beizutragen.
 
 ## Technische Details
 
